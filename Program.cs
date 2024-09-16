@@ -8,5 +8,5 @@ var app = builder.Build();
 app.MapGet("/", () => "Hello, World! Welcome to my ASP.NET Core app.");
 
 // Run the application on port 5001
-app.Run("http://localhost:5001");
+app.Run("http://0.0.0.0:5001");
 
