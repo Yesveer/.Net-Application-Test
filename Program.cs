@@ -7,6 +7,6 @@ var app = builder.Build();
 // Define a route for the root URL
 app.MapGet("/", () => "Hello, World! Welcome to my ASP.NET Core app.");
 
-// Run the application on port 5001
-app.Run("http://0.0.0.0:5001");
+// Run the application on port 5003
+app.Run("http://0.0.0.0:5003");
 
